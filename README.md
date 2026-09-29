@@ -1,28 +1,28 @@
-古琴多模态数据集：元数据与标注规则
-本仓库提供古琴多模态数据集的元数据与标注规则，用于非物质文化遗产古琴音乐的多模态表示研究。
+Guqin Multimodal Dataset: Metadata and Annotation Rules
+This repository provides the metadata and annotation rules for a multimodal Guqin music dataset, supporting research on multimodal representation of intangible cultural heritage music.
 
-文件内容
-Metadata.xlsx —— 元数据与标注规则（共 3 个工作表）
+File Contents
+Metadata.xlsx — metadata and annotation rules (3 sheets)
 
-工作表说明
-samples：样本级元数据，包含 sample_id、track_name、label、split、duration_sec、video_frames、notation_chars
+Sheet Description
+samples: sample-level metadata, including sample_id, track_name, label, split, duration_sec, video_frames, notation_chars
 
-fingering_labels：逐时间步指法标注，包含 sample_id、time_step、fingering_label
+fingering_labels: time-step-level fingering annotations, including sample_id, time_step, fingering_label
 
-encoding_rules：减字谱四维编码规则，包含编码值、左手指法、徽位、右手指法、弦序
+encoding_rules: 4-dimensional encoding rules for Jianzipu, including encoding value, left-hand finger, hui position, right-hand technique, string order
 
-数据覆盖
-共 10 个样本片段，覆盖 4 首经典古琴曲目：
+Data Coverage
+10 sample clips covering 4 classical Guqin tracks:
 
-《广陵散》
+Guangling San
 
-《梅花三弄》
+Three Variations on Plum Blossom
 
-《平沙落雁》
+Wild Geese Descending on the Sandbank
 
-《阳关三叠》
+Three Variations on the Yangquan Pass
 
-数据划分：训练集 / 验证集 / 测试集 = 7 : 1 : 2
+Split: train / validation / test = 7 : 1 : 2
 
-许可协议
+License
 CC BY 4.0
